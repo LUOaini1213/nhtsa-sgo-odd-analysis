@@ -1,0 +1,3 @@
+﻿dataset,n_all,n_known,pct_unknown,median_mph,p25_mph,p75_mph,mean_mph,max_mph,pct_0mph,pct_le10mph,pct_ge46mph,pct_gt65mph
+ADS,1549,1549,0.0,0.0,0.0,9.0,6.4,65.0,50.9,77.3,1.2,0.0
+ADAS,2359,2083,11.7,38.0,22.0,60.0,40.2,124.0,2.0,8.7,39.5,18.8

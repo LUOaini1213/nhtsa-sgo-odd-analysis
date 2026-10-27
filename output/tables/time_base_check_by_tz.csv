@@ -1,0 +1,14 @@
+﻿dataset,reporter_group,time_zone,n_known_hour,trough_3h_window,peak_3h_window
+ADS,Waymo LLC,"AZ (MST, 无夏令时)",205,03-05,13-15
+ADS,Waymo LLC,CT,178,03-05,09-11
+ADS,Waymo LLC,ET,115,03-05,14-16
+ADS,Waymo LLC,PT,769,03-05,15-17
+ADS,其他主体,CT,147,04-06,12-14
+ADS,其他主体,PT,88,04-06,13-15
+ADAS,"Tesla, Inc.","AZ (MST, 无夏令时)",41,10-12,00-02
+ADAS,"Tesla, Inc.",CT,432,08-10,21-23
+ADAS,"Tesla, Inc.",ET,764,07-09,20-22
+ADAS,"Tesla, Inc.",MT,58,07-09,12-14
+ADAS,"Tesla, Inc.",PT,727,10-12,21-23
+ADAS,其他主体,CT,63,22-00,12-14
+ADAS,其他主体,ET,108,01-03,13-15

@@ -1,0 +1,11 @@
+﻿dataset,step,rule,rows_before,rows_after,removed_or_merged,note
+ADS,R0,读取原始 CSV（全部按字符串，去首尾空白）,1595,1595,0,1551 个 Report ID
+ADS,R1,每个 Report ID 只保留最大 Report Version（与 NHTSA 仪表板做法一致）,1595,1551,44,
+ADS,R2,最新版本 Automation System Engaged? = ADS,1551,1551,0,Unknown 类型的报告在 NHTSA 的 OTHER 文件中，本项目未下载、未使用
+ADS,R3,同一文件内 Same Incident ID 相同的报告合并为一起事故（保留信息最完整的一份）,1551,1550,1,1 起事故有多份报告
+ADS,R4,Incident Date 在 2025-06 至 2026-09（第三修订版报告期）,1550,1549,1,早于窗口 1 起；日期未知 0 起；晚于窗口 0 起
+ADAS,R0,读取原始 CSV（全部按字符串，去首尾空白）,2574,2574,0,2427 个 Report ID
+ADAS,R1,每个 Report ID 只保留最大 Report Version（与 NHTSA 仪表板做法一致）,2574,2427,147,
+ADAS,R2,最新版本 Automation System Engaged? = ADAS,2427,2427,0,Unknown 类型的报告在 NHTSA 的 OTHER 文件中，本项目未下载、未使用
+ADAS,R3,同一文件内 Same Incident ID 相同的报告合并为一起事故（保留信息最完整的一份）,2427,2418,9,7 起事故有多份报告
+ADAS,R4,Incident Date 在 2025-06 至 2026-09（第三修订版报告期）,2418,2359,59,早于窗口 58 起；日期未知 1 起；晚于窗口 0 起

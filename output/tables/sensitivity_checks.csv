@@ -1,0 +1,49 @@
+﻿dataset,scenario,scenario_desc,n,metric,value
+ADS,S0,主口径：分析总体（R1-R4）,1549,降雨或湿滑（占已知%）,4.4
+ADS,S0,主口径：分析总体（R1-R4）,1549,Highway / Freeway（占已知%）,2.1
+ADS,S0,主口径：分析总体（R1-R4）,1549,SV 静止 Stopped/Parked（占已知%）,50.3
+ADS,S0,主口径：分析总体（R1-R4）,1549,SV Lane / Road Departure（占已知%）,0.6
+ADS,S0,主口径：分析总体（R1-R4）,1549,碰撞对象为固定物（占已知%）,6.1
+ADS,S0,主口径：分析总体（R1-R4）,1549,碰撞对象为轻型车辆（占已知%）,69.4
+ADS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,1551,降雨或湿滑（占已知%）,4.4
+ADS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,1551,Highway / Freeway（占已知%）,2.1
+ADS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,1551,SV 静止 Stopped/Parked（占已知%）,50.2
+ADS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,1551,SV Lane / Road Departure（占已知%）,0.6
+ADS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,1551,碰撞对象为固定物（占已知%）,6.1
+ADS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,1551,碰撞对象为轻型车辆（占已知%）,69.4
+ADS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,1505,降雨或湿滑（占已知%）,4.5
+ADS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,1505,Highway / Freeway（占已知%）,1.9
+ADS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,1505,SV 静止 Stopped/Parked（占已知%）,51.4
+ADS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,1505,SV Lane / Road Departure（占已知%）,0.4
+ADS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,1505,碰撞对象为固定物（占已知%）,5.6
+ADS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,1505,碰撞对象为轻型车辆（占已知%）,69.4
+ADS,S3,主口径，剔除报告量最大的主体（Waymo LLC）——构成敏感性，不是安全比较,267,降雨或湿滑（占已知%）,5.6
+ADS,S3,主口径，剔除报告量最大的主体（Waymo LLC）——构成敏感性，不是安全比较,267,Highway / Freeway（占已知%）,5.2
+ADS,S3,主口径，剔除报告量最大的主体（Waymo LLC）——构成敏感性，不是安全比较,267,SV 静止 Stopped/Parked（占已知%）,27.1
+ADS,S3,主口径，剔除报告量最大的主体（Waymo LLC）——构成敏感性，不是安全比较,267,SV Lane / Road Departure（占已知%）,1.5
+ADS,S3,主口径，剔除报告量最大的主体（Waymo LLC）——构成敏感性，不是安全比较,267,碰撞对象为固定物（占已知%）,13.1
+ADS,S3,主口径，剔除报告量最大的主体（Waymo LLC）——构成敏感性，不是安全比较,267,碰撞对象为轻型车辆（占已知%）,65.9
+ADAS,S0,主口径：分析总体（R1-R4）,2359,降雨或湿滑（占已知%）,14.3
+ADAS,S0,主口径：分析总体（R1-R4）,2359,Highway / Freeway（占已知%）,59.6
+ADAS,S0,主口径：分析总体（R1-R4）,2359,SV 静止 Stopped/Parked（占已知%）,2.0
+ADAS,S0,主口径：分析总体（R1-R4）,2359,SV Lane / Road Departure（占已知%）,35.7
+ADAS,S0,主口径：分析总体（R1-R4）,2359,碰撞对象为固定物（占已知%）,37.4
+ADAS,S0,主口径：分析总体（R1-R4）,2359,碰撞对象为轻型车辆（占已知%）,44.9
+ADAS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,2427,降雨或湿滑（占已知%）,14.1
+ADAS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,2427,Highway / Freeway（占已知%）,59.4
+ADAS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,2427,SV 静止 Stopped/Parked（占已知%）,1.9
+ADAS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,2427,SV Lane / Road Departure（占已知%）,34.7
+ADAS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,2427,碰撞对象为固定物（占已知%）,36.9
+ADAS,S1,全部最新版本报告（不做 R3 合并、不做 R4 窗口）,2427,碰撞对象为轻型车辆（占已知%）,45.5
+ADAS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,2352,降雨或湿滑（占已知%）,14.4
+ADAS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,2352,Highway / Freeway（占已知%）,59.5
+ADAS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,2352,SV 静止 Stopped/Parked（占已知%）,2.0
+ADAS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,2352,SV Lane / Road Departure（占已知%）,35.8
+ADAS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,2352,碰撞对象为固定物（占已知%）,37.3
+ADAS,S2,主口径，剔除 Engagement Status = Verified Not Engaged,2352,碰撞对象为轻型车辆（占已知%）,45.0
+ADAS,S3,"主口径，剔除报告量最大的主体（Tesla, Inc.）——构成敏感性，不是安全比较",237,降雨或湿滑（占已知%）,9.2
+ADAS,S3,"主口径，剔除报告量最大的主体（Tesla, Inc.）——构成敏感性，不是安全比较",237,Highway / Freeway（占已知%）,83.3
+ADAS,S3,"主口径，剔除报告量最大的主体（Tesla, Inc.）——构成敏感性，不是安全比较",237,SV 静止 Stopped/Parked（占已知%）,0.5
+ADAS,S3,"主口径，剔除报告量最大的主体（Tesla, Inc.）——构成敏感性，不是安全比较",237,SV Lane / Road Departure（占已知%）,19.5
+ADAS,S3,"主口径，剔除报告量最大的主体（Tesla, Inc.）——构成敏感性，不是安全比较",237,碰撞对象为固定物（占已知%）,34.6
+ADAS,S3,"主口径，剔除报告量最大的主体（Tesla, Inc.）——构成敏感性，不是安全比较",237,碰撞对象为轻型车辆（占已知%）,29.2

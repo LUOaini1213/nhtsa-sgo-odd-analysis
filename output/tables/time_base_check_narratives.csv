@@ -1,0 +1,15 @@
+﻿dataset,Reporting Entity,n_narratives_with_ampm_time,n_exact_match,n_12h_offset (AM/PM 混淆),n_other_offset
+ADAS,Ford Motor Company,17,15,1,1
+ADAS,"Rivian Automotive, LLC",3,2,0,1
+ADAS,"Subaru of America, Inc.",3,1,0,2
+ADAS,Honda (American Honda Motor Co.),1,1,0,0
+ADAS,"Mercedes-Benz USA, LLC",1,1,0,0
+ADAS,Waymo LLC,1,1,0,0
+ADS,Waymo LLC,1282,1266,6,10
+ADS,Avride Inc.,74,72,2,0
+ADS,Motional,13,12,0,1
+ADS,May Mobility,10,10,0,0
+ADS,"Aurora Operations, Inc.",6,5,0,1
+ADS,Gatik AI Inc.,3,2,0,1
+ADS,MOIA America LLC,2,2,0,0
+ADS,WeRide Corp,1,1,0,0

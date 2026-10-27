@@ -1,0 +1,23 @@
+﻿dataset,field,n_not_known,n_redacted,n_unknown_or_not_reported,n_all,pct_not_known
+ADS,Roadway Type,1,0,1,1549,0.1
+ADS,Weather（无实质选项）,0,0,0,1549,0.0
+ADS,Roadway 描述（无实质选项）,0,0,0,1549,0.0
+ADS,Crash With,0,0,0,1549,0.0
+ADS,SV Pre-Crash Movement,1,0,1,1549,0.1
+ADS,CP Pre-Crash Movement,4,0,4,1549,0.3
+ADS,SV Precrash Speed (MPH),0,0,0,1549,0.0
+ADS,Highest Injury Severity Alleged,25,0,25,1549,1.6
+ADS,Was Any Vehicle Towed?,0,0,0,1549,0.0
+ADS,Within ODD?,14,14,0,1549,0.9
+ADS,Narrative,1,1,0,1549,0.1
+ADAS,Roadway Type,896,0,896,2359,38.0
+ADAS,Weather（无实质选项）,862,0,862,2359,36.5
+ADAS,Roadway 描述（无实质选项）,1230,0,1230,2359,52.1
+ADAS,Crash With,1243,0,1243,2359,52.7
+ADAS,SV Pre-Crash Movement,1248,0,1248,2359,52.9
+ADAS,CP Pre-Crash Movement,1347,0,1347,2359,57.1
+ADAS,SV Precrash Speed (MPH),276,0,276,2359,11.7
+ADAS,Highest Injury Severity Alleged,2152,0,2152,2359,91.2
+ADAS,Was Any Vehicle Towed?,2175,0,2175,2359,92.2
+ADAS,Within ODD?,2206,2158,48,2359,93.5
+ADAS,Narrative,2145,2144,1,2359,90.9

@@ -1,0 +1,30 @@
+﻿dataset,check,n,denominator,pct,scope,handling
+ADS,早期版本行的 Automation System Engaged? 与文件类型不同,1,1595,0.1,全部版本行,R1 取最新版本后不再存在
+ADS,文件中最早版本 > 1 的 Report ID（首版在 2025-06-16 前提交、位于归档数据）,0,1551,0.0,最新版本报告,仍使用文件中的最新版本
+ADS,同一 Report ID 不同版本间 Same Incident ID 发生变化,2,1551,0.1,最新版本报告,以最新版本的 Same Incident ID 为准（NHTSA 提示该字段可能随版本变化）
+ADS,Same Incident ID 为空,0,1551,0.0,最新版本报告,以 Report ID 作为事故键，不与其他报告合并
+ADS,Latitude/Longitude 已脱敏或为空,1551,1551,100.0,最新版本报告,无法做基于经纬度的光照/日照计算
+ADS,Narrative 整段以 CBI 理由脱敏,1,1551,0.1,最新版本报告,叙述关键词分析只覆盖可读叙述，并注明覆盖率
+ADS,Within ODD? 以 CBI 理由脱敏,15,1551,1.0,最新版本报告,单列 Redacted 类别，不计入已知分母
+ADS,SV Pre-Crash Movement 为 Stopped/Parked 但 SV Precrash Speed > 0,9,1551,0.6,最新版本报告,按原值保留（上报主体口径差异），不修改
+ADS,SV Precrash Speed > 100 mph,0,1551,0.0,最新版本报告,按原值保留，计入 >65 档
+ADS,CP Pre-Crash Movement 为空但 Crash With 不是固定物（一致性检查）,0,1551,0.0,最新版本报告,0 表示“空白=无碰撞伙伴”的解释与数据一致
+ADS,Roadway-Unknown 与其他路面选项同时勾选,0,1551,0.0,最新版本报告,视为路面已知（有实质选项）
+ADS,Weather - Unk 与其他天气选项同时勾选,0,1551,0.0,最新版本报告,视为天气已知（有实质选项）
+ADS,被合并事故中各报告 Incident Time 不一致,0,1,0.0,多报告事故,仍按 NHTSA 的 Same Incident ID 合并，在 report.md 中单独说明
+ADS,Incident Date 早于 2025-06（最新版本报告）,1,1551,0.1,最新版本报告,R4 剔除（多为旧版 SGO 首报后的更新或迟报）
+ADAS,早期版本行的 Automation System Engaged? 与文件类型不同,3,2574,0.1,全部版本行,R1 取最新版本后不再存在
+ADAS,文件中最早版本 > 1 的 Report ID（首版在 2025-06-16 前提交、位于归档数据）,37,2427,1.5,最新版本报告,仍使用文件中的最新版本
+ADAS,同一 Report ID 不同版本间 Same Incident ID 发生变化,7,2427,0.3,最新版本报告,以最新版本的 Same Incident ID 为准（NHTSA 提示该字段可能随版本变化）
+ADAS,Same Incident ID 为空,1,2427,0.0,最新版本报告,以 Report ID 作为事故键，不与其他报告合并
+ADAS,Latitude/Longitude 已脱敏或为空,2427,2427,100.0,最新版本报告,无法做基于经纬度的光照/日照计算
+ADAS,Narrative 整段以 CBI 理由脱敏,2191,2427,90.3,最新版本报告,叙述关键词分析只覆盖可读叙述，并注明覆盖率
+ADAS,Within ODD? 以 CBI 理由脱敏,2207,2427,90.9,最新版本报告,单列 Redacted 类别，不计入已知分母
+ADAS,SV Pre-Crash Movement 为 Stopped/Parked 但 SV Precrash Speed > 0,0,2427,0.0,最新版本报告,按原值保留（上报主体口径差异），不修改
+ADAS,SV Precrash Speed > 100 mph,10,2427,0.4,最新版本报告,按原值保留，计入 >65 档
+ADAS,CP Pre-Crash Movement 为空但 Crash With 不是固定物（一致性检查）,0,2427,0.0,最新版本报告,0 表示“空白=无碰撞伙伴”的解释与数据一致
+ADAS,Roadway-Unknown 与其他路面选项同时勾选,15,2427,0.6,最新版本报告,视为路面已知（有实质选项）
+ADAS,Weather - Unk 与其他天气选项同时勾选,2,2427,0.1,最新版本报告,视为天气已知（有实质选项）
+ADAS,被合并事故中各报告 Incident Time 不一致,1,7,14.3,多报告事故,仍按 NHTSA 的 Same Incident ID 合并，在 report.md 中单独说明
+ADAS,Incident Date 早于 2025-06（最新版本报告）,58,2427,2.4,最新版本报告,R4 剔除（多为旧版 SGO 首报后的更新或迟报）
+ADS+ADAS,同一 Same Incident ID 同时出现在 ADS 与 ADAS 文件,1,3978,0.0,两文件最新版本报告,"地点与时间均不同，判断为 ID 重合而非同一事故；两文件分别分析、不跨文件合并。 明细: ef0962cc3b93fcf: ADS 30270-12050 San Francisco,CA 16:05 vs ADAS 13781-13035 Edison,NJ 23:27"

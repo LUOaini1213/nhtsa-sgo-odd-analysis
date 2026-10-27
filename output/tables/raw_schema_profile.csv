@@ -1,0 +1,235 @@
+﻿dataset,column,n_rows,non_blank,n_unique,n_redacted,top_values
+ADS,Report ID,1595,1595,1551,0,31101-13612=5 | 13781-11375=4 | 13781-11986=3 | 13781-11459=3 | 13781-11687=3 | 13781-16256=2 | 35021-16401=2 | 30270-16286=2
+ADS,Report Version,1595,1595,5,0,1=1551 | 2=36 | 3=5 | 4=2 | 5=1
+ADS,Reporting Entity,1595,1595,19,0,"Waymo LLC=1292 | Avride Inc.=91 | Zoox, Inc.=79 | Tesla, Inc.=57 | May Mobility=21 | Motional=15 | Aurora Operations, Inc.=8 | Nuro=7"
+ADS,Report Type,1595,1595,3,0,5-Day=801 | Monthly=750 | Update=44
+ADS,Report Month,1595,750,12,0,6=106 | 7=91 | 5=72 | 8=71 | 4=60 | 3=57 | 12=54 | 11=54
+ADS,Report Year,1595,750,2,0,2026=459 | 2025=291
+ADS,Report Submission Date,1595,1595,16,0,MAY-2026=137 | JAN-2026=136 | MAR-2026=134 | APR-2026=131 | JUL-2026=128 | JUN-2026=128 | AUG-2026=113 | DEC-2025=108
+ADS,VIN,1595,1595,162,0,SADHW2S15R1=125 | SADHW2S11R1=120 | SADHW2S17R1=112 | SADHW2S14R1=110 | SADHW2S1XR1=107 | SADHW2S18R1=106 | SADHW2S10R1=106 | SADHW2S12R1=105
+ADS,VIN Decoded,1595,1595,2,0,Y=1588 | N=7
+ADS,Serial Number,1595,1283,2,1282,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=1282 | N/A=1
+ADS,Make,1595,1595,16,0,JAGUAR=1251 | HYUNDAI=108 | TOYOTA=59 | TESLA=57 | ZOOX=48 | ZEEKR=41 | PETERBILT=11 | Volkswagen=6
+ADS,Make - Unknown,1595,0,0,0,
+ADS,Model,1595,1595,21,0,I-PACE=1251 | Ioniq 5=108 | Model Y=56 | Zoox=48 | RT=41 | Highlander=31 | Sienna=21 | 579=11
+ADS,Model - Unknown,1595,0,0,0,
+ADS,Model Year,1595,1595,9,0,2024=1235 | 2026=118 | 2025=109 | 2021=73 | 2019=26 | 2023=19 | 2022=9 | 2017=5
+ADS,Model Year - Unknown,1595,0,0,0,
+ADS,Same Vehicle ID,1595,1595,1320,0,66777850da94681=7 | 6686ed7925bcb94=4 | 4e3337ffd13d65a=3 | 22e916e48058524=3 | d873964734d4e83=3 | e9380653930af17=3 | 07ef63da89df93e=3 | 9f161d03b3576d3=3
+ADS,Driver / Operator Type,1595,1595,5,0,"None=1322 | In-Vehicle (Commercial / Test)=249 | In-Vehicle and Remote (Commercial / Test=15 | Remote (Commercial / Test)=8 | Other, see Narrative=1"
+ADS,Automation Feature Version,1595,1595,130,63,"5th Generation ADS, Version 10=889 | 5th Generation ADS, Version 11=337 | [REDACTED, MAY CONTAIN CONFIDENTIAL BUSI=63 | v1.0=47 | ADS=39 | 6th Generation ADS, Version 11=31 | RC-04-17=13 | 5th Generation ADS Version 10=13"
+ADS,Automation Feature Version CBI,1595,63,1,0,Y=63
+ADS,Automation System Engaged?,1595,1595,2,0,ADS=1594 | ADAS=1
+ADS,Engagement Status,1595,1595,4,0,Verified Engaged=1547 | Verified Not Engaged=44 | Unknown - see Narrative=2 | Alleged Engaged=2
+ADS,Operating Entity,1595,1595,28,0,"Waymo LLC=1291 | Zoox=78 | Tesla Inc=57 | Avride Inc.=53 | Avride Inc=31 | Motional=16 | May Mobility Inc.=14 | Aurora Operations, Inc.=8"
+ADS,Operating Entity - Unknown,1595,0,0,0,
+ADS,Source - Complaint/Claim,1595,10,1,0,Y=10
+ADS,Source - Telematics,1595,1392,1,0,Y=1392
+ADS,Source - Law Enforcement,1595,5,1,0,Y=5
+ADS,Source - Field Report,1595,282,1,0,Y=282
+ADS,Source - Testing,1595,100,1,0,Y=100
+ADS,Source - Media,1595,1,1,0,Y=1
+ADS,Source - Internal Process Review,1595,15,1,0,Y=15
+ADS,Source - NHTSA VOQ,1595,0,0,0,
+ADS,Source - Other - See Narrative,1595,0,0,0,
+ADS,Source - Other Entity,1595,0,0,0,
+ADS,Source - State or Other Agency,1595,0,0,0,
+ADS,Incident Date,1595,1595,17,0,APR-2026=146 | MAR-2026=145 | JUN-2026=131 | JAN-2026=123 | JUL-2026=121 | MAY-2026=118 | DEC-2025=116 | NOV-2025=113
+ADS,Incident Date - Unknown,1595,0,0,0,
+ADS,Incident Time (24:00),1595,1595,935,0,12:20=8 | 14:30=7 | 14:50=7 | 15:05=6 | 17:11=6 | 15:18=5 | 20:19=5 | 13:23=5
+ADS,Incident Time - Unknown,1595,0,0,0,
+ADS,Same Incident ID,1595,1595,1552,0,36c1cde68385968=5 | b5d3e7bb23a3388=4 | 6fc6e04c8d8c904=3 | 8578fbc6ef74c60=3 | b0fa162bedc9a52=3 | 0229e852164543d=3 | 7420ebc8c51d9ec=2 | 6447476cf2f72af=2
+ADS,Latitude,1595,1595,1,1595,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=1595
+ADS,Latitude - Unknown,1595,0,0,0,
+ADS,Longitude,1595,1595,1,1595,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=1595
+ADS,Longitude - Unknown,1595,0,0,0,
+ADS,Address,1595,1393,1,1393,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=1393
+ADS,Address - Unknown,1595,0,0,0,
+ADS,City,1595,1592,77,0,San Francisco=398 | Los Angeles=266 | Austin=222 | Phoenix=113 | Dallas=84 | Atlanta=79 | Tempe=48 | Las Vegas=44
+ADS,City - Unknown,1595,0,0,0,
+ADS,State,1595,1593,14,0,CA=816 | TX=354 | AZ=208 | GA=82 | NV=51 | FL=48 | TN=10 | PA=7
+ADS,Zip Code,1595,1393,1,1393,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=1393
+ADS,Zip Code - Unknown,1595,0,0,0,
+ADS,Roadway Type,1595,1595,8,0,Street=1105 | Intersection=316 | Parking Lot=135 | Highway / Freeway=33 | Traffic Circle=3 | Parking Garage=1 | Unpaved Road=1 | Unknown=1
+ADS,Roadway-Degraded Surface,1595,15,1,0,Y=15
+ADS,Roadway-Missing/Degraded Marking,1595,2,1,0,Y=2
+ADS,Roadway-No Unusual Conditions,1595,1475,1,0,Y=1475
+ADS,Roadway-Other-See Narrative,1595,36,1,0,Y=36
+ADS,Roadway-Traffic Incident,1595,8,1,0,Y=8
+ADS,Roadway-Unknown,1595,0,0,0,
+ADS,Roadway-Wet Surface Condition,1595,36,1,0,Y=36
+ADS,Roadway-Work Zone,1595,30,1,0,Y=30
+ADS,Weather - Clear,1595,1168,1,0,Y=1168
+ADS,Weather - Snow,1595,0,0,0,
+ADS,Weather - Cloudy,1595,222,1,0,Y=222
+ADS,Weather - Partly Cloudy,1595,151,1,0,Y=151
+ADS,Weather - Fog/Smoke/Haze,1595,1,1,0,Y=1
+ADS,Weather - Rain,1595,61,1,0,Y=61
+ADS,Weather - Severe Wind,1595,1,1,0,Y=1
+ADS,Weather - Dust Storm,1595,1,1,0,Y=1
+ADS,Weather - Severe Hurricane,1595,0,0,0,
+ADS,Weather - Structure-Indoor,1595,2,1,0,Y=2
+ADS,Weather - Unk - See Narrative,1595,0,0,0,
+ADS,Crash With,1595,1595,16,0,"Passenger Car=496 | SUV=377 | Pickup Truck=177 | Heavy Truck=148 | Other, see Narrative=119 | Other Fixed Object=92 | Bus=56 | Van=49"
+ADS,Highest Injury Severity Alleged,1595,1595,9,0,Property Damage. No Injured Reported=1322 | Minor W/O Hospitalization=104 | No Injured Reported=84 | Minor W/ Hospitalization=40 | Unknown=25 | Moderate W/ Hospitalization=9 | Moderate W/O Hospitalization=5 | Serious W/ Hospitalization=4
+ADS,CP Pre-Crash Movement,1595,1490,21,0,"Proceeding Straight=529 | Passing=182 | Backing=168 | Other, see Narrative=148 | Changing Lanes=100 | Making Right Turn=86 | Making Left Turn=74 | Entering Traffic=55"
+ADS,CP Contact Area - Rear Left,1595,54,1,0,Y=54
+ADS,CP Contact Area - Left,1595,134,1,0,Y=134
+ADS,CP Contact Area - Front Left,1595,217,1,0,Y=217
+ADS,CP Contact Area - Rear,1595,76,1,0,Y=76
+ADS,CP Contact Area - Top,1595,2,1,0,Y=2
+ADS,CP Contact Area - Front,1595,181,1,0,Y=181
+ADS,CP Contact Area - Rear Right,1595,134,1,0,Y=134
+ADS,CP Contact Area - Right,1595,183,1,0,Y=183
+ADS,CP Contact Area - Front Right,1595,434,1,0,Y=434
+ADS,CP Contact Area - Bottom,1595,0,0,0,
+ADS,CP Contact Area - Unknown,1595,110,1,0,Y=110
+ADS,SV Pre-Crash Movement,1595,1595,15,0,Stopped=669 | Proceeding Straight=562 | Parked=120 | Making Left Turn=71 | Making Right Turn=45 | Changing Lanes=38 | Backing=29 | Passing=21
+ADS,Any Air Bags Deployed?,1595,1595,8,0,"No Subject Vehicle, No Crash Partner=1453 | Yes Crash Partner, No Subject Vehicle=55 | No Subject Vehicle, Unknown Crash Partne=43 | Yes Subject Vehicle, Yes Crash Partner=18 | Yes Subject Vehicle, No Crash Partner=12 | Not Applicable=10 | Yes Subject Vehicle, Unknown Crash Partn=3 | No Crash Partner, Unknown Subject Vehicl=1"
+ADS,Was Any Vehicle Towed?,1595,1595,7,0,"No Subject Vehicle, No Crash Partner=785 | Yes Subject Vehicle, No Crash Partner=638 | Yes Subject Vehicle, Yes Crash Partner=92 | Yes Subject Vehicle, Unknown Crash Partn=36 | No Subject Vehicle, Unknown Crash Partne=22 | Yes Crash Partner, No Subject Vehicle=21 | Yes Crash Partner, Unknown Subject Vehic=1"
+ADS,Were All Passengers Belted?,1595,1595,4,0,Subject Vehicle - All Belted=836 | Subject Vehicle - No Passenger In Vehicl=652 | Subject Vehicle - Not Belted - see Narra=97 | Unknown=10
+ADS,SV Precrash Speed (MPH),1595,1595,57,0,0=800 | 1=85 | 2=68 | 3=51 | 5=42 | 4=40 | 9=40 | 10=27
+ADS,SV Pre-crash Speed - Unknown,1595,0,0,0,
+ADS,SV Contact Area - Rear Left,1595,142,1,0,Y=142
+ADS,SV Contact Area - Left,1595,144,1,0,Y=144
+ADS,SV Contact Area - Front Left,1595,129,1,0,Y=129
+ADS,SV Contact Area - Rear,1595,347,1,0,Y=347
+ADS,SV Contact Area - Top,1595,11,1,0,Y=11
+ADS,SV Contact Area - Front,1595,169,1,0,Y=169
+ADS,SV Contact Area - Rear Right,1595,374,1,0,Y=374
+ADS,SV Contact Area - Right,1595,115,1,0,Y=115
+ADS,SV Contact Area - Front Right,1595,193,1,0,Y=193
+ADS,SV Contact Area - Bottom,1595,78,1,0,Y=78
+ADS,SV Contact Area - Unknown,1595,10,1,0,Y=10
+ADS,Data Availability - EDR,1595,6,1,0,Y=6
+ADS,Data Availability - Police Rpt,1595,35,1,0,Y=35
+ADS,Data Availability - Telematics,1595,1513,1,0,Y=1513
+ADS,Data Availability - Complaints,1595,0,0,0,
+ADS,Data Availability - Video,1595,1583,1,0,Y=1583
+ADS,Data Availability - Other,1595,77,1,0,Y=77
+ADS,Data Availability - No Data,1595,1,1,0,Y=1
+ADS,Data Availability - Unknown,1595,0,0,0,
+ADS,Investigating Agency,1595,1578,107,0,N/A=1043 | None=125 | Los Angeles Police Department=41 | San Francisco Police Department=41 | na=40 | Phoenix Police Department=38 | Austin Police Department=25 | Atlanta Police Department=22
+ADS,Investigating Agency - Unknown,1595,17,1,0,Y=17
+ADS,Within ODD?,1595,1595,4,34,"Yes=1559 | [REDACTED, MAY CONTAIN CONFIDENTIAL BUSI=34 | Exiting ODD=1 | No, see Narrative=1"
+ADS,Within ODD? - CBI,1595,34,1,0,Y=34
+ADS,Narrative,1595,1595,1574,1542,"[REDACTED, MAY CONTAIN CONFIDENTIAL BUSI=19 | On June [XXX], 2026 at 10:30 PM PT a Way=2 | On March [XXX], 2026 at 3:54 PM, an AVRI=2 | On February [XXX], 2026 at 9:06 PM, an A=2 | On August [XXX], 2026 at 5:21 AM PDT a W=1 | On August [XXX], 2026 at 10:15 PM CDT a =1 | On August [XXX], 2026 at 5:10 PM EDT, a =1 | On August [XXX], 2026 at 9:35 AM EDT a W=1"
+ADS,Narrative - CBI?,1595,28,1,0,Y=28
+ADAS,Report ID,2574,2574,2427,0,10039-11989=5 | 13781-14154=4 | 1306-11959=4 | 10039-13203=4 | 10039-16122=3 | 502-16127=3 | 13781-16013=3 | 13781-13493=3
+ADAS,Report Version,2574,2574,5,0,1=2390 | 2=158 | 3=20 | 4=5 | 5=1
+ADAS,Reporting Entity,2574,2574,22,0,"Tesla, Inc.=2211 | General Motors, LLC=160 | Ford Motor Company=39 | Subaru of America, Inc.=26 | BMW of North America, LLC=23 | Kia America, Inc.=19 | Toyota Motor Engineering & Manufacturing=17 | Hyundai Motor America=12"
+ADAS,Report Type,2574,2574,3,0,5-Day=2386 | Update=184 | Monthly=4
+ADAS,Report Month,2574,4,3,0,6=2 | 5=1 | 3=1
+ADAS,Report Year,2574,4,2,0,2026=3 | 2025=1
+ADAS,Report Submission Date,2574,2574,16,0,JUL-2026=284 | JUN-2026=264 | MAY-2026=249 | AUG-2026=221 | APR-2026=174 | SEP-2026=157 | JAN-2026=153 | DEC-2025=149
+ADAS,VIN,2574,2574,984,0,5YJ3E1EA1SF=26 | 7SAYGDEE8TF=19 | 5YJ3E1EA7SF=18 | 7SAYGDEE1TF=18 | 5YJ3E1EA8SF=17 | 5YJ3E1EA3SF=17 | 5YJ3E1EA2SF=17 | 5YJ3E1EA6SF=17
+ADAS,VIN Decoded,2574,2573,2,0,Y=2554 | N=19
+ADAS,Serial Number,2574,2070,2,2069,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=2069 | N/A=1
+ADAS,Make,2574,2574,29,0,TESLA=2204 | GMC=60 | CADILLAC=52 | CHEVROLET=45 | FORD=38 | SUBARU=26 | BMW=22 | TOYOTA=21
+ADAS,Make - Unknown,2574,0,0,0,
+ADAS,Model,2574,2574,94,0,Model Y=1063 | Model 3=821 | Model X=142 | Model S=114 | Cybertruck=69 | Traverse=32 | Sierra=30 | F-150=20
+ADAS,Model - Unknown,2574,0,0,0,
+ADAS,Model Year,2574,2574,14,0,2026=608 | 2025=508 | 2024=421 | 2023=385 | 2022=220 | 2021=152 | 2020=83 | 2018=80
+ADAS,Model Year - Unknown,2574,0,0,0,
+ADAS,Same Vehicle ID,2574,2574,2417,0,6db33c569cf4c36=5 | cc92f6e10c7049a=4 | 3b362fff82e440f=4 | 7eec1752edce137=4 | 54a783e186e885d=3 | b9d7e555c9a3dbf=3 | 29add627fc8ddff=3 | bf80088c2a1b2d7=3
+ADAS,Driver / Operator Type,2574,2574,5,0,"Consumer=2516 | In-Vehicle (Commercial / Test)=44 | Other, see Narrative=9 | Unknown=4 | None=1"
+ADAS,Automation Feature Version,2574,2509,70,2202,"[REDACTED, MAY CONTAIN CONFIDENTIAL BUSI=2202 | Super Cruise 1.0=98 | Level 2=42 | TSS 3.0=12 | Super Cruise 2.0=11 | ProPilot Assist=9 | HDA=8 | Distronic+ with Active Steering Assist=7"
+ADAS,Automation Feature Version CBI,2574,2267,1,0,Y=2267
+ADAS,Automation System Engaged?,2574,2574,2,0,"ADAS=2571 | Unknown, see Narrative=3"
+ADAS,Engagement Status,2574,2574,4,0,Verified Engaged=2459 | Alleged Engaged=94 | Verified Not Engaged=13 | Unknown - see Narrative=8
+ADAS,Operating Entity,2574,53,15,0,"Tesla Inc=17 | Tesla Inc.=10 | Hyundai Motor America=5 | Tesla=4 | FCA US Employee=3 | NVIDIA Corporation=3 | DTNA Reliability Growth Testing=2 | DTNA Reliability Growth Testing, with ve=2"
+ADAS,Operating Entity - Unknown,2574,5,1,0,Y=5
+ADAS,Source - Complaint/Claim,2574,147,1,0,Y=147
+ADAS,Source - Telematics,2574,2247,1,0,Y=2247
+ADAS,Source - Law Enforcement,2574,7,1,0,Y=7
+ADAS,Source - Field Report,2574,48,1,0,Y=48
+ADAS,Source - Testing,2574,23,1,0,Y=23
+ADAS,Source - Media,2574,46,1,0,Y=46
+ADAS,Source - Internal Process Review,2574,11,1,0,Y=11
+ADAS,Source - NHTSA VOQ,2574,10,1,0,Y=10
+ADAS,Source - Other - See Narrative,2574,0,0,0,
+ADAS,Source - Other Entity,2574,94,1,0,Y=94
+ADAS,Source - State or Other Agency,2574,0,0,0,
+ADAS,Incident Date,2574,2573,37,0,JUL-2026=285 | JUN-2026=238 | AUG-2026=236 | MAY-2026=232 | APR-2026=185 | MAR-2026=164 | OCT-2025=155 | DEC-2025=145
+ADAS,Incident Date - Unknown,2574,1,1,0,Y=1
+ADAS,Incident Time (24:00),2574,2559,1139,0,20:27=9 | 22:13=7 | 14:43=7 | 21:40=7 | 23:14=7 | 04:15=7 | 22:21=6 | 23:37=6
+ADAS,Incident Time - Unknown,2574,15,1,0,Y=15
+ADAS,Same Incident ID,2574,2573,2423,0,cdfe07af14c61c9=5 | 896d89615037c26=4 | 62bf650416b01c3=4 | 5f2cf558e2e6897=3 | f15bd18438557ba=3 | f7e9220debf341b=3 | cf2f89c229664b9=3 | e2032218f67eda1=3
+ADAS,Latitude,2574,2425,1,2425,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=2425
+ADAS,Latitude - Unknown,2574,147,1,0,Y=147
+ADAS,Longitude,2574,2425,1,2425,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=2425
+ADAS,Longitude - Unknown,2574,147,1,0,Y=147
+ADAS,Address,2574,2271,1,2271,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=2271
+ADAS,Address - Unknown,2574,0,0,0,
+ADAS,City,2574,2470,1239,0,Los Angeles=53 | Austin=30 | Dallas=30 | Miami=28 | Houston=27 | Las Vegas=23 | San Jose=23 | San Diego=23
+ADAS,City - Unknown,2574,0,0,0,
+ADAS,State,2574,2539,51,0,CA=692 | TX=321 | FL=218 | GA=93 | NY=80 | NJ=77 | NC=75 | VA=69
+ADAS,Zip Code,2574,2277,1,2277,[MAY CONTAIN PERSONALLY IDENTIFIABLE INF=2277
+ADAS,Zip Code - Unknown,2574,0,0,0,
+ADAS,Roadway Type,2574,2574,9,0,Highway / Freeway=1006 | Unknown=925 | Intersection=276 | Street=269 | Rural Road=59 | Parking Lot=29 | Parking Garage=6 | Traffic Circle=2
+ADAS,Roadway-Degraded Surface,2574,0,0,0,
+ADAS,Roadway-Missing/Degraded Marking,2574,1,1,0,Y=1
+ADAS,Roadway-No Unusual Conditions,2574,931,1,0,Y=931
+ADAS,Roadway-Other-See Narrative,2574,48,1,0,Y=48
+ADAS,Roadway-Traffic Incident,2574,57,1,0,Y=57
+ADAS,Roadway-Unknown,2574,1320,1,0,Y=1320
+ADAS,Roadway-Wet Surface Condition,2574,219,1,0,Y=219
+ADAS,Roadway-Work Zone,2574,24,1,0,Y=24
+ADAS,Weather - Clear,2574,912,1,0,Y=912
+ADAS,Weather - Snow,2574,4,1,0,Y=4
+ADAS,Weather - Cloudy,2574,593,1,0,Y=593
+ADAS,Weather - Partly Cloudy,2574,75,1,0,Y=75
+ADAS,Weather - Fog/Smoke/Haze,2574,10,1,0,Y=10
+ADAS,Weather - Rain,2574,199,1,0,Y=199
+ADAS,Weather - Severe Wind,2574,2,1,0,Y=2
+ADAS,Weather - Dust Storm,2574,0,0,0,
+ADAS,Weather - Severe Hurricane,2574,0,0,0,
+ADAS,Weather - Structure-Indoor,2574,2,1,0,Y=2
+ADAS,Weather - Unk - See Narrative,2574,932,1,0,Y=932
+ADAS,Crash With,2574,2574,15,0,"Unknown=1308 | Other Fixed Object=406 | Passenger Car=269 | SUV=194 | Other, see Narrative=129 | Pickup Truck=80 | Pole / Tree=70 | Heavy Truck=43"
+ADAS,Highest Injury Severity Alleged,2574,2574,10,0,Unknown=2265 | No Injured Reported=90 | Minor W/O Hospitalization=56 | Minor W/ Hospitalization=47 | Serious W/ Hospitalization=36 | Fatality=35 | Moderate W/ Hospitalization=21 | Property Damage. No Injured Reported=20
+ADAS,CP Pre-Crash Movement,2574,2098,18,0,"Unknown=1430 | Proceeding Straight=293 | Stopped=72 | Making Left Turn=71 | Lane / Road Departure=60 | Other, see Narrative=52 | Changing Lanes=36 | NM Crossing Roadway=18"
+ADAS,CP Contact Area - Rear Left,2574,88,1,0,Y=88
+ADAS,CP Contact Area - Left,2574,102,1,0,Y=102
+ADAS,CP Contact Area - Front Left,2574,190,1,0,Y=190
+ADAS,CP Contact Area - Rear,2574,116,1,0,Y=116
+ADAS,CP Contact Area - Top,2574,1,1,0,Y=1
+ADAS,CP Contact Area - Front,2574,226,1,0,Y=226
+ADAS,CP Contact Area - Rear Right,2574,105,1,0,Y=105
+ADAS,CP Contact Area - Right,2574,75,1,0,Y=75
+ADAS,CP Contact Area - Front Right,2574,198,1,0,Y=198
+ADAS,CP Contact Area - Bottom,2574,4,1,0,Y=4
+ADAS,CP Contact Area - Unknown,2574,1452,1,0,Y=1452
+ADAS,SV Pre-Crash Movement,2574,2574,14,0,"Unknown=1311 | Proceeding Straight=604 | Lane / Road Departure=425 | Making Left Turn=94 | Making Right Turn=48 | Other, see Narrative=42 | Stopped=24 | Changing Lanes=14"
+ADAS,Any Air Bags Deployed?,2574,2574,10,0,"Yes Subject Vehicle, Unknown Crash Partn=1771 | Yes Subject Vehicle, No Crash Partner=488 | Yes Subject Vehicle, Yes Crash Partner=192 | No Subject Vehicle, No Crash Partner=52 | No Subject Vehicle, Unknown Crash Partne=25 | Yes Crash Partner, No Subject Vehicle=23 | Unknown=16 | Not Applicable=3"
+ADAS,Was Any Vehicle Towed?,2574,2574,8,0,"Unknown=2298 | Yes Subject Vehicle, No Crash Partner=106 | Yes Subject Vehicle, Unknown Crash Partn=84 | Yes Subject Vehicle, Yes Crash Partner=42 | No Subject Vehicle, No Crash Partner=30 | Yes Crash Partner, No Subject Vehicle=6 | No Subject Vehicle, Unknown Crash Partne=4 | Yes Crash Partner, Unknown Subject Vehic=4"
+ADAS,Were All Passengers Belted?,2574,2574,4,0,Unknown=2249 | Subject Vehicle - All Belted=298 | Subject Vehicle - Not Belted - see Narra=21 | Subject Vehicle - No Passenger In Vehicl=6
+ADAS,SV Precrash Speed (MPH),2574,2269,103,0,30=55 | 17=51 | 28=50 | 0=46 | 40=45 | 21=43 | 43=42 | 22=41
+ADAS,SV Pre-crash Speed - Unknown,2574,305,1,0,Y=305
+ADAS,SV Contact Area - Rear Left,2574,154,1,0,Y=154
+ADAS,SV Contact Area - Left,2574,296,1,0,Y=296
+ADAS,SV Contact Area - Front Left,2574,466,1,0,Y=466
+ADAS,SV Contact Area - Rear,2574,220,1,0,Y=220
+ADAS,SV Contact Area - Top,2574,50,1,0,Y=50
+ADAS,SV Contact Area - Front,2574,610,1,0,Y=610
+ADAS,SV Contact Area - Rear Right,2574,89,1,0,Y=89
+ADAS,SV Contact Area - Right,2574,172,1,0,Y=172
+ADAS,SV Contact Area - Front Right,2574,637,1,0,Y=637
+ADAS,SV Contact Area - Bottom,2574,86,1,0,Y=86
+ADAS,SV Contact Area - Unknown,2574,1295,1,0,Y=1295
+ADAS,Data Availability - EDR,2574,2188,1,0,Y=2188
+ADAS,Data Availability - Police Rpt,2574,67,1,0,Y=67
+ADAS,Data Availability - Telematics,2574,2251,1,0,Y=2251
+ADAS,Data Availability - Complaints,2574,112,1,0,Y=112
+ADAS,Data Availability - Video,2574,1407,1,0,Y=1407
+ADAS,Data Availability - Other,2574,2311,1,0,Y=2311
+ADAS,Data Availability - No Data,2574,1,1,0,Y=1
+ADAS,Data Availability - Unknown,2574,14,1,0,Y=14
+ADAS,Investigating Agency,2574,132,81,0,"None=15 | California Highway Patrol=12 | Michigan State Police=4 | West Palm Beach Police Dept=4 | Nevada Highway Patrol=4 | Florida Highway Patrol=3 | Monroe County Sherrif, Indiana=3 | Missouri State Highway Patrol=3"
+ADAS,Investigating Agency - Unknown,2574,2442,1,0,Y=2442
+ADAS,Within ODD?,2574,2574,4,2274,"[REDACTED, MAY CONTAIN CONFIDENTIAL BUSI=2274 | Yes=213 | Unknown, see Narrative=82 | No, see Narrative=5"
+ADAS,Within ODD? - CBI,2574,2274,1,0,Y=2274
+ADAS,Narrative,2574,2573,313,2552,"[REDACTED, MAY CONTAIN CONFIDENTIAL BUSI=2257 | The Mercedes-Benz vehicle was traveling =3 | On September [XXX], 2025, a 2024 Cadilla=2 | On September 4, 2025, Daimler Truck Nort=2 | **6/9/2026 5-Day Incident Report**
+On Ju=1 | On September 14, 2026, Ford received tel=1 | Update to Incident Report #273-16088-1:
+=1 | On September [XXX], 2026, a 2026 GMC Yuk=1"
+ADAS,Narrative - CBI?,2574,2283,1,0,Y=2283

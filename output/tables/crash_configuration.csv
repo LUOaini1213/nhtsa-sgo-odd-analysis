@@ -1,0 +1,97 @@
+﻿dataset,sv_move_group,cp_move_group,n,pct_of_all
+ADS,Stationary,Proceeding straight,327,21.1
+ADS,Stationary,Lane change / merge / pass,198,12.8
+ADS,Stationary,Backing / parking,142,9.2
+ADS,Proceeding straight,Lane change / merge / pass,131,8.5
+ADS,Proceeding straight,Proceeding straight,129,8.3
+ADS,Proceeding straight,Other,89,5.7
+ADS,Proceeding straight,Turning,72,4.6
+ADS,Proceeding straight,No crash partner (fixed object),55,3.6
+ADS,Stationary,Turning,50,3.2
+ADS,Stationary,Other,44,2.8
+ADS,Lane change / merge / pass,Proceeding straight,31,2.0
+ADS,Turning,Turning,29,1.9
+ADS,Turning,Proceeding straight,29,1.9
+ADS,Proceeding straight,Stationary,28,1.8
+ADS,Proceeding straight,Backing / parking,27,1.7
+ADS,Turning,No crash partner (fixed object),20,1.3
+ADS,Turning,Other,17,1.1
+ADS,Lane change / merge / pass,Lane change / merge / pass,12,0.8
+ADS,Turning,Lane change / merge / pass,11,0.7
+ADS,Backing / parking,No crash partner (fixed object),10,0.6
+ADS,Lane change / merge / pass,Stationary,10,0.6
+ADS,Backing / parking,Backing / parking,7,0.5
+ADS,Stationary,Lane / road departure,6,0.4
+ADS,Stationary,Stationary,6,0.4
+ADS,Lane / road departure,No crash partner (fixed object),6,0.4
+ADS,Backing / parking,Stationary,5,0.3
+ADS,Proceeding straight,Non-motorist movement,5,0.3
+ADS,Proceeding straight,Lane / road departure,5,0.3
+ADS,Lane change / merge / pass,Turning,4,0.3
+ADS,Other,Stationary,4,0.3
+ADS,Stationary,Non-motorist movement,4,0.3
+ADS,Lane change / merge / pass,Other,3,0.2
+ADS,Backing / parking,Other,3,0.2
+ADS,Backing / parking,Proceeding straight,3,0.2
+ADS,Lane change / merge / pass,Backing / parking,3,0.2
+ADS,Lane / road departure,Stationary,3,0.2
+ADS,Turning,Stationary,2,0.1
+ADS,Turning,Lane / road departure,2,0.1
+ADS,Other,Proceeding straight,2,0.1
+ADS,Other,No crash partner (fixed object),2,0.1
+ADS,Other,Lane change / merge / pass,2,0.1
+ADS,Backing / parking,Non-motorist movement,1,0.1
+ADS,Backing / parking,Lane change / merge / pass,1,0.1
+ADS,Lane / road departure,Other,1,0.1
+ADS,Lane change / merge / pass,Unknown,1,0.1
+ADS,Lane change / merge / pass,No crash partner (fixed object),1,0.1
+ADS,Backing / parking,Unknown,1,0.1
+ADS,Other,Other,1,0.1
+ADS,Proceeding straight,Unknown,1,0.1
+ADS,Stationary,Unknown,1,0.1
+ADS,Turning,Non-motorist movement,1,0.1
+ADS,Unknown,Stationary,1,0.1
+ADAS,Unknown,Unknown,1228,52.1
+ADAS,Lane / road departure,No crash partner (fixed object),295,12.5
+ADAS,Proceeding straight,Proceeding straight,135,5.7
+ADAS,Proceeding straight,Turning,72,3.1
+ADAS,Turning,Proceeding straight,69,2.9
+ADAS,Proceeding straight,Unknown,57,2.4
+ADAS,Proceeding straight,Lane / road departure,55,2.3
+ADAS,Proceeding straight,No crash partner (fixed object),49,2.1
+ADAS,Proceeding straight,Stationary,47,2.0
+ADAS,Lane / road departure,Proceeding straight,43,1.8
+ADAS,Lane / road departure,Unknown,42,1.8
+ADAS,Proceeding straight,Other,42,1.8
+ADAS,Proceeding straight,Lane change / merge / pass,41,1.7
+ADAS,Turning,No crash partner (fixed object),39,1.7
+ADAS,Unknown,No crash partner (fixed object),19,0.8
+ADAS,Proceeding straight,Non-motorist movement,16,0.7
+ADAS,Turning,Stationary,12,0.5
+ADAS,Other,Unknown,12,0.5
+ADAS,Lane / road departure,Stationary,11,0.5
+ADAS,Stationary,Proceeding straight,8,0.3
+ADAS,Other,No crash partner (fixed object),7,0.3
+ADAS,Lane change / merge / pass,Proceeding straight,6,0.3
+ADAS,Stationary,Lane change / merge / pass,6,0.3
+ADAS,Lane change / merge / pass,No crash partner (fixed object),5,0.2
+ADAS,Turning,Turning,4,0.2
+ADAS,Turning,Unknown,4,0.2
+ADAS,Lane / road departure,Other,4,0.2
+ADAS,Other,Other,4,0.2
+ADAS,Other,Proceeding straight,4,0.2
+ADAS,Backing / parking,No crash partner (fixed object),3,0.1
+ADAS,Turning,Non-motorist movement,2,0.1
+ADAS,Stationary,Other,2,0.1
+ADAS,Lane change / merge / pass,Lane change / merge / pass,2,0.1
+ADAS,Stationary,Lane / road departure,2,0.1
+ADAS,Stationary,Unknown,2,0.1
+ADAS,Other,Stationary,2,0.1
+ADAS,Lane / road departure,Lane change / merge / pass,1,0.0
+ADAS,Backing / parking,Non-motorist movement,1,0.0
+ADAS,Backing / parking,Unknown,1,0.0
+ADAS,Lane / road departure,Lane / road departure,1,0.0
+ADAS,Lane change / merge / pass,Unknown,1,0.0
+ADAS,Stationary,Turning,1,0.0
+ADAS,Stationary,Stationary,1,0.0
+ADAS,Unknown,Proceeding straight,1,0.0

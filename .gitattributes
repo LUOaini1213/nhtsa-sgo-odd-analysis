@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+# raw source data is kept byte-for-byte (SHA-256 in data/README.md)
+data/raw/** -text

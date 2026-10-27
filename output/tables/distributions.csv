@@ -1,0 +1,355 @@
+﻿dataset,field,category,n,pct_of_all,pct_of_known,n_all,n_known
+ADS,roadway_group,Street,1078,69.6,69.6,1549,1548
+ADS,roadway_group,Intersection,306,19.8,19.8,1549,1548
+ADS,roadway_group,Highway / Freeway,33,2.1,2.1,1549,1548
+ADS,roadway_group,Parking lot / garage,127,8.2,8.2,1549,1548
+ADS,roadway_group,Rural road,0,0.0,0.0,1549,1548
+ADS,roadway_group,Other (traffic circle / unpaved),4,0.3,0.3,1549,1548
+ADS,roadway_group,Unknown,1,0.1,,1549,1548
+ADS,roadway_type,Street,1078,69.6,69.6,1549,1548
+ADS,roadway_type,Intersection,306,19.8,19.8,1549,1548
+ADS,roadway_type,Parking Lot,126,8.1,8.1,1549,1548
+ADS,roadway_type,Highway / Freeway,33,2.1,2.1,1549,1548
+ADS,roadway_type,Traffic Circle,3,0.2,0.2,1549,1548
+ADS,roadway_type,Unpaved Road,1,0.1,0.1,1549,1548
+ADS,roadway_type,Parking Garage,1,0.1,0.1,1549,1548
+ADS,roadway_type,Unknown,1,0.1,,1549,1548
+ADS,crash_with_group,Light vehicle,1075,69.4,69.4,1549,1549
+ADS,crash_with_group,Heavy truck / bus,202,13.0,13.0,1549,1549
+ADS,crash_with_group,Motorcycle,16,1.0,1.0,1549,1549
+ADS,crash_with_group,VRU (non-motorist),26,1.7,1.7,1549,1549
+ADS,crash_with_group,Fixed object,94,6.1,6.1,1549,1549
+ADS,crash_with_group,Other,136,8.8,8.8,1549,1549
+ADS,crash_with,Passenger Car,488,31.5,31.5,1549,1549
+ADS,crash_with,SUV,367,23.7,23.7,1549,1549
+ADS,crash_with,Pickup Truck,171,11.0,11.0,1549,1549
+ADS,crash_with,Heavy Truck,147,9.5,9.5,1549,1549
+ADS,crash_with,"Other, see Narrative",113,7.3,7.3,1549,1549
+ADS,crash_with,Other Fixed Object,83,5.4,5.4,1549,1549
+ADS,crash_with,Bus,55,3.6,3.6,1549,1549
+ADS,crash_with,Van,49,3.2,3.2,1549,1549
+ADS,crash_with,Motorcycle,16,1.0,1.0,1549,1549
+ADS,crash_with,Non-Motorist: Cyclist,15,1.0,1.0,1549,1549
+ADS,crash_with,Animal,13,0.8,0.8,1549,1549
+ADS,crash_with,Pole / Tree,11,0.7,0.7,1549,1549
+ADS,crash_with,First Responder Vehicle,10,0.6,0.6,1549,1549
+ADS,crash_with,Non-Motorist: Scooter - Skateboard,5,0.3,0.3,1549,1549
+ADS,crash_with,Non-Motorist: Pedestrian,4,0.3,0.3,1549,1549
+ADS,crash_with,Non-Motorist: Other,2,0.1,0.1,1549,1549
+ADS,severity_group,Fatality,2,0.1,0.1,1549,1524
+ADS,severity_group,Serious,4,0.3,0.3,1549,1524
+ADS,severity_group,Moderate,13,0.8,0.9,1549,1524
+ADS,severity_group,Minor,138,8.9,9.1,1549,1524
+ADS,severity_group,No injury reported,1367,88.3,89.7,1549,1524
+ADS,severity_group,Unknown,25,1.6,,1549,1524
+ADS,severity,Property Damage. No Injured Reported,1294,83.5,84.9,1549,1524
+ADS,severity,Minor W/O Hospitalization,99,6.4,6.5,1549,1524
+ADS,severity,No Injured Reported,73,4.7,4.8,1549,1524
+ADS,severity,Minor W/ Hospitalization,39,2.5,2.6,1549,1524
+ADS,severity,Moderate W/ Hospitalization,9,0.6,0.6,1549,1524
+ADS,severity,Serious W/ Hospitalization,4,0.3,0.3,1549,1524
+ADS,severity,Moderate W/O Hospitalization,4,0.3,0.3,1549,1524
+ADS,severity,Fatality,2,0.1,0.1,1549,1524
+ADS,severity,Unknown,25,1.6,,1549,1524
+ADS,sv_move_group,Stationary,778,50.2,50.3,1549,1548
+ADS,sv_move_group,Proceeding straight,542,35.0,35.0,1549,1548
+ADS,sv_move_group,Turning,111,7.2,7.2,1549,1548
+ADS,sv_move_group,Lane change / merge / pass,65,4.2,4.2,1549,1548
+ADS,sv_move_group,Lane / road departure,10,0.6,0.6,1549,1548
+ADS,sv_move_group,Backing / parking,31,2.0,2.0,1549,1548
+ADS,sv_move_group,Other,11,0.7,0.7,1549,1548
+ADS,sv_move_group,Unknown,1,0.1,,1549,1548
+ADS,sv_move,Stopped,660,42.6,42.6,1549,1548
+ADS,sv_move,Proceeding Straight,542,35.0,35.0,1549,1548
+ADS,sv_move,Parked,118,7.6,7.6,1549,1548
+ADS,sv_move,Making Left Turn,68,4.4,4.4,1549,1548
+ADS,sv_move,Making Right Turn,42,2.7,2.7,1549,1548
+ADS,sv_move,Changing Lanes,37,2.4,2.4,1549,1548
+ADS,sv_move,Backing,26,1.7,1.7,1549,1548
+ADS,sv_move,Passing,21,1.4,1.4,1549,1548
+ADS,sv_move,"Other, see Narrative",11,0.7,0.7,1549,1548
+ADS,sv_move,Lane / Road Departure,10,0.6,0.6,1549,1548
+ADS,sv_move,Parking Maneuver,5,0.3,0.3,1549,1548
+ADS,sv_move,Entering Traffic,4,0.3,0.3,1549,1548
+ADS,sv_move,Merging,3,0.2,0.2,1549,1548
+ADS,sv_move,Making U-Turn,1,0.1,0.1,1549,1548
+ADS,sv_move,Unknown,1,0.1,,1549,1548
+ADS,cp_move_group,Stationary,59,3.8,3.8,1549,1545
+ADS,cp_move_group,Proceeding straight,521,33.6,33.7,1549,1545
+ADS,cp_move_group,Turning,155,10.0,10.0,1549,1545
+ADS,cp_move_group,Lane change / merge / pass,355,22.9,23.0,1549,1545
+ADS,cp_move_group,Lane / road departure,13,0.8,0.8,1549,1545
+ADS,cp_move_group,Backing / parking,179,11.6,11.6,1549,1545
+ADS,cp_move_group,Non-motorist movement,11,0.7,0.7,1549,1545
+ADS,cp_move_group,No crash partner (fixed object),94,6.1,6.1,1549,1545
+ADS,cp_move_group,Other,158,10.2,10.2,1549,1545
+ADS,cp_move_group,Unknown,4,0.3,,1549,1545
+ADS,cp_move,Proceeding Straight,521,33.6,33.7,1549,1545
+ADS,cp_move,Passing,181,11.7,11.7,1549,1545
+ADS,cp_move,Backing,167,10.8,10.8,1549,1545
+ADS,cp_move,"Other, see Narrative",143,9.2,9.3,1549,1545
+ADS,cp_move,Changing Lanes,98,6.3,6.3,1549,1545
+ADS,cp_move,No crash partner (fixed object),94,6.1,6.1,1549,1545
+ADS,cp_move,Making Right Turn,79,5.1,5.1,1549,1545
+ADS,cp_move,Making Left Turn,73,4.7,4.7,1549,1545
+ADS,cp_move,Entering Traffic,54,3.5,3.5,1549,1545
+ADS,cp_move,Parked,31,2.0,2.0,1549,1545
+ADS,cp_move,Stopped,28,1.8,1.8,1549,1545
+ADS,cp_move,Crossing into Opposing Lane,18,1.2,1.2,1549,1545
+ADS,cp_move,Traveling Wrong Way,15,1.0,1.0,1549,1545
+ADS,cp_move,Lane / Road Departure,13,0.8,0.8,1549,1545
+ADS,cp_move,Parking Maneuver,12,0.8,0.8,1549,1545
+ADS,cp_move,NM Crossing Roadway,6,0.4,0.4,1549,1545
+ADS,cp_move,Merging,4,0.3,0.3,1549,1545
+ADS,cp_move,Making U-Turn,3,0.2,0.2,1549,1545
+ADS,cp_move,NM in Roadway - Other,3,0.2,0.2,1549,1545
+ADS,cp_move,NM Waiting to Cross Roadway,1,0.1,0.1,1549,1545
+ADS,cp_move,NM Moving Alongside Roadway,1,0.1,0.1,1549,1545
+ADS,cp_move,Unknown,4,0.3,,1549,1545
+ADS,speed_band,0,788,50.9,50.9,1549,1549
+ADS,speed_band,1-10,410,26.5,26.5,1549,1549
+ADS,speed_band,11-25,252,16.3,16.3,1549,1549
+ADS,speed_band,26-45,80,5.2,5.2,1549,1549
+ADS,speed_band,46-65,19,1.2,1.2,1549,1549
+ADS,speed_band,>65,0,0.0,0.0,1549,1549
+ADS,engagement,Verified Engaged,1501,96.9,97.0,1549,1547
+ADS,engagement,Verified Not Engaged,44,2.8,2.8,1549,1547
+ADS,engagement,Alleged Engaged,2,0.1,0.1,1549,1547
+ADS,engagement,Unknown,2,0.1,,1549,1547
+ADS,operator_type,None,1291,83.3,83.3,1549,1549
+ADS,operator_type,In-Vehicle (Commercial / Test),235,15.2,15.2,1549,1549
+ADS,operator_type,In-Vehicle and Remote (Commercial / Test),15,1.0,1.0,1549,1549
+ADS,operator_type,Remote (Commercial / Test),7,0.5,0.5,1549,1549
+ADS,operator_type,"Other, see Narrative",1,0.1,0.1,1549,1549
+ADS,within_odd,Yes,1533,99.0,99.9,1549,1535
+ADS,within_odd,"No, see Narrative",1,0.1,0.1,1549,1535
+ADS,within_odd,Exiting ODD,1,0.1,0.1,1549,1535
+ADS,within_odd,Redacted,14,0.9,,1549,1535
+ADS,airbag,"No Subject Vehicle, No Crash Partner",1421,91.7,91.7,1549,1549
+ADS,airbag,"Yes Crash Partner, No Subject Vehicle",53,3.4,3.4,1549,1549
+ADS,airbag,"No Subject Vehicle, Unknown Crash Partner",36,2.3,2.3,1549,1549
+ADS,airbag,"Yes Subject Vehicle, Yes Crash Partner",17,1.1,1.1,1549,1549
+ADS,airbag,Not Applicable,10,0.6,0.6,1549,1549
+ADS,airbag,"Yes Subject Vehicle, No Crash Partner",10,0.6,0.6,1549,1549
+ADS,airbag,"Yes Subject Vehicle, Unknown Crash Partner",2,0.1,0.1,1549,1549
+ADS,towed,"No Subject Vehicle, No Crash Partner",761,49.1,49.1,1549,1549
+ADS,towed,"Yes Subject Vehicle, No Crash Partner",630,40.7,40.7,1549,1549
+ADS,towed,"Yes Subject Vehicle, Yes Crash Partner",88,5.7,5.7,1549,1549
+ADS,towed,"Yes Subject Vehicle, Unknown Crash Partner",32,2.1,2.1,1549,1549
+ADS,towed,"Yes Crash Partner, No Subject Vehicle",21,1.4,1.4,1549,1549
+ADS,towed,"No Subject Vehicle, Unknown Crash Partner",16,1.0,1.0,1549,1549
+ADS,towed,"Yes Crash Partner, Unknown Subject Vehicle",1,0.1,0.1,1549,1549
+ADS,Report Type,5-Day,784,50.6,50.6,1549,1549
+ADS,Report Type,Monthly,729,47.1,47.1,1549,1549
+ADS,Report Type,Update,36,2.3,2.3,1549,1549
+ADS,state_std,CA,808,52.2,52.2,1549,1548
+ADS,state_std,TX,322,20.8,20.8,1549,1548
+ADS,state_std,AZ,207,13.4,13.4,1549,1548
+ADS,state_std,GA,81,5.2,5.2,1549,1548
+ADS,state_std,NV,49,3.2,3.2,1549,1548
+ADS,state_std,FL,47,3.0,3.0,1549,1548
+ADS,state_std,TN,10,0.6,0.6,1549,1548
+ADS,state_std,PA,7,0.5,0.5,1549,1548
+ADS,state_std,DC,6,0.4,0.4,1549,1548
+ADS,state_std,CO,4,0.3,0.3,1549,1548
+ADS,state_std,NM,3,0.2,0.2,1549,1548
+ADS,state_std,MN,2,0.1,0.1,1549,1548
+ADS,state_std,AR,1,0.1,0.1,1549,1548
+ADS,state_std,MI,1,0.1,0.1,1549,1548
+ADS,state_std,Not reported,1,0.1,,1549,1548
+ADAS,roadway_group,Street,249,10.6,17.0,2359,1463
+ADAS,roadway_group,Intersection,250,10.6,17.1,2359,1463
+ADAS,roadway_group,Highway / Freeway,872,37.0,59.6,2359,1463
+ADAS,roadway_group,Parking lot / garage,33,1.4,2.3,2359,1463
+ADAS,roadway_group,Rural road,55,2.3,3.8,2359,1463
+ADAS,roadway_group,Other (traffic circle / unpaved),4,0.2,0.3,2359,1463
+ADAS,roadway_group,Unknown,896,38.0,,2359,1463
+ADAS,roadway_type,Highway / Freeway,872,37.0,59.6,2359,1463
+ADAS,roadway_type,Intersection,250,10.6,17.1,2359,1463
+ADAS,roadway_type,Street,249,10.6,17.0,2359,1463
+ADAS,roadway_type,Rural Road,55,2.3,3.8,2359,1463
+ADAS,roadway_type,Parking Lot,27,1.1,1.8,2359,1463
+ADAS,roadway_type,Parking Garage,6,0.3,0.4,2359,1463
+ADAS,roadway_type,Traffic Circle,2,0.1,0.1,2359,1463
+ADAS,roadway_type,Unpaved Road,2,0.1,0.1,2359,1463
+ADAS,roadway_type,Unknown,896,38.0,,2359,1463
+ADAS,crash_with_group,Light vehicle,501,21.2,44.9,2359,1116
+ADAS,crash_with_group,Heavy truck / bus,38,1.6,3.4,2359,1116
+ADAS,crash_with_group,Motorcycle,8,0.3,0.7,2359,1116
+ADAS,crash_with_group,VRU (non-motorist),12,0.5,1.1,2359,1116
+ADAS,crash_with_group,Fixed object,417,17.7,37.4,2359,1116
+ADAS,crash_with_group,Other,140,5.9,12.5,2359,1116
+ADAS,crash_with_group,Unknown,1243,52.7,,2359,1116
+ADAS,crash_with,Other Fixed Object,356,15.1,31.9,2359,1116
+ADAS,crash_with,Passenger Car,237,10.0,21.2,2359,1116
+ADAS,crash_with,SUV,180,7.6,16.1,2359,1116
+ADAS,crash_with,"Other, see Narrative",108,4.6,9.7,2359,1116
+ADAS,crash_with,Pickup Truck,73,3.1,6.5,2359,1116
+ADAS,crash_with,Pole / Tree,61,2.6,5.5,2359,1116
+ADAS,crash_with,Heavy Truck,35,1.5,3.1,2359,1116
+ADAS,crash_with,Animal,27,1.1,2.4,2359,1116
+ADAS,crash_with,Van,11,0.5,1.0,2359,1116
+ADAS,crash_with,Non-Motorist: Cyclist,9,0.4,0.8,2359,1116
+ADAS,crash_with,Motorcycle,8,0.3,0.7,2359,1116
+ADAS,crash_with,First Responder Vehicle,5,0.2,0.4,2359,1116
+ADAS,crash_with,Non-Motorist: Pedestrian,3,0.1,0.3,2359,1116
+ADAS,crash_with,Bus,3,0.1,0.3,2359,1116
+ADAS,crash_with,Unknown,1243,52.7,,2359,1116
+ADAS,severity_group,Fatality,25,1.1,12.1,2359,207
+ADAS,severity_group,Serious,20,0.8,9.7,2359,207
+ADAS,severity_group,Moderate,15,0.6,7.2,2359,207
+ADAS,severity_group,Minor,67,2.8,32.4,2359,207
+ADAS,severity_group,No injury reported,80,3.4,38.6,2359,207
+ADAS,severity_group,Unknown,2152,91.2,,2359,207
+ADAS,severity,No Injured Reported,64,2.7,30.9,2359,207
+ADAS,severity,Minor W/O Hospitalization,38,1.6,18.4,2359,207
+ADAS,severity,Minor W/ Hospitalization,29,1.2,14.0,2359,207
+ADAS,severity,Fatality,25,1.1,12.1,2359,207
+ADAS,severity,Serious W/ Hospitalization,20,0.8,9.7,2359,207
+ADAS,severity,Property Damage. No Injured Reported,16,0.7,7.7,2359,207
+ADAS,severity,Moderate W/ Hospitalization,13,0.6,6.3,2359,207
+ADAS,severity,Moderate W/O Hospitalization,2,0.1,1.0,2359,207
+ADAS,severity,Unknown,2152,91.2,,2359,207
+ADAS,sv_move_group,Stationary,22,0.9,2.0,2359,1111
+ADAS,sv_move_group,Proceeding straight,514,21.8,46.3,2359,1111
+ADAS,sv_move_group,Turning,130,5.5,11.7,2359,1111
+ADAS,sv_move_group,Lane change / merge / pass,14,0.6,1.3,2359,1111
+ADAS,sv_move_group,Lane / road departure,397,16.8,35.7,2359,1111
+ADAS,sv_move_group,Backing / parking,5,0.2,0.5,2359,1111
+ADAS,sv_move_group,Other,29,1.2,2.6,2359,1111
+ADAS,sv_move_group,Unknown,1248,52.9,,2359,1111
+ADAS,sv_move,Proceeding Straight,514,21.8,46.3,2359,1111
+ADAS,sv_move,Lane / Road Departure,397,16.8,35.7,2359,1111
+ADAS,sv_move,Making Left Turn,88,3.7,7.9,2359,1111
+ADAS,sv_move,Making Right Turn,41,1.7,3.7,2359,1111
+ADAS,sv_move,"Other, see Narrative",29,1.2,2.6,2359,1111
+ADAS,sv_move,Stopped,22,0.9,2.0,2359,1111
+ADAS,sv_move,Changing Lanes,11,0.5,1.0,2359,1111
+ADAS,sv_move,Parking Maneuver,4,0.2,0.4,2359,1111
+ADAS,sv_move,Merging,2,0.1,0.2,2359,1111
+ADAS,sv_move,Backing,1,0.0,0.1,2359,1111
+ADAS,sv_move,Making U-Turn,1,0.0,0.1,2359,1111
+ADAS,sv_move,Entering Traffic,1,0.0,0.1,2359,1111
+ADAS,sv_move,Unknown,1248,52.9,,2359,1111
+ADAS,cp_move_group,Stationary,73,3.1,7.2,2359,1012
+ADAS,cp_move_group,Proceeding straight,266,11.3,26.3,2359,1012
+ADAS,cp_move_group,Turning,77,3.3,7.6,2359,1012
+ADAS,cp_move_group,Lane change / merge / pass,50,2.1,4.9,2359,1012
+ADAS,cp_move_group,Lane / road departure,58,2.5,5.7,2359,1012
+ADAS,cp_move_group,Backing / parking,0,0.0,0.0,2359,1012
+ADAS,cp_move_group,Non-motorist movement,19,0.8,1.9,2359,1012
+ADAS,cp_move_group,No crash partner (fixed object),417,17.7,41.2,2359,1012
+ADAS,cp_move_group,Other,52,2.2,5.1,2359,1012
+ADAS,cp_move_group,Unknown,1347,57.1,,2359,1012
+ADAS,cp_move,No crash partner (fixed object),417,17.7,41.2,2359,1012
+ADAS,cp_move,Proceeding Straight,266,11.3,26.3,2359,1012
+ADAS,cp_move,Making Left Turn,65,2.8,6.4,2359,1012
+ADAS,cp_move,Stopped,59,2.5,5.8,2359,1012
+ADAS,cp_move,Lane / Road Departure,58,2.5,5.7,2359,1012
+ADAS,cp_move,"Other, see Narrative",39,1.7,3.9,2359,1012
+ADAS,cp_move,Changing Lanes,33,1.4,3.3,2359,1012
+ADAS,cp_move,NM Crossing Roadway,16,0.7,1.6,2359,1012
+ADAS,cp_move,Parked,14,0.6,1.4,2359,1012
+ADAS,cp_move,Traveling Wrong Way,13,0.6,1.3,2359,1012
+ADAS,cp_move,Making Right Turn,10,0.4,1.0,2359,1012
+ADAS,cp_move,Passing,6,0.3,0.6,2359,1012
+ADAS,cp_move,Crossing into Opposing Lane,5,0.2,0.5,2359,1012
+ADAS,cp_move,Entering Traffic,3,0.1,0.3,2359,1012
+ADAS,cp_move,Merging,3,0.1,0.3,2359,1012
+ADAS,cp_move,NM in Roadway - Other,2,0.1,0.2,2359,1012
+ADAS,cp_move,Making U-Turn,2,0.1,0.2,2359,1012
+ADAS,cp_move,NM Moving Alongside Roadway,1,0.0,0.1,2359,1012
+ADAS,cp_move,Unknown,1347,57.1,,2359,1012
+ADAS,speed_band,0,42,1.8,2.0,2359,2083
+ADAS,speed_band,1-10,140,5.9,6.7,2359,2083
+ADAS,speed_band,11-25,487,20.6,23.4,2359,2083
+ADAS,speed_band,26-45,592,25.1,28.4,2359,2083
+ADAS,speed_band,46-65,430,18.2,20.6,2359,2083
+ADAS,speed_band,>65,392,16.6,18.8,2359,2083
+ADAS,speed_band,Unknown,276,11.7,,2359,2083
+ADAS,engagement,Verified Engaged,2306,97.8,97.8,2359,2358
+ADAS,engagement,Alleged Engaged,45,1.9,1.9,2359,2358
+ADAS,engagement,Verified Not Engaged,7,0.3,0.3,2359,2358
+ADAS,engagement,Unknown,1,0.0,,2359,2358
+ADAS,operator_type,Consumer,2313,98.1,98.2,2359,2355
+ADAS,operator_type,In-Vehicle (Commercial / Test),35,1.5,1.5,2359,2355
+ADAS,operator_type,"Other, see Narrative",6,0.3,0.3,2359,2355
+ADAS,operator_type,None,1,0.0,0.0,2359,2355
+ADAS,operator_type,Unknown,4,0.2,,2359,2355
+ADAS,within_odd,Yes,149,6.3,97.4,2359,153
+ADAS,within_odd,"No, see Narrative",4,0.2,2.6,2359,153
+ADAS,within_odd,Unknown,48,2.0,,2359,153
+ADAS,within_odd,Redacted,2158,91.5,,2359,153
+ADAS,airbag,"Yes Subject Vehicle, Unknown Crash Partner",1658,70.3,70.5,2359,2351
+ADAS,airbag,"Yes Subject Vehicle, No Crash Partner",440,18.7,18.7,2359,2351
+ADAS,airbag,"Yes Subject Vehicle, Yes Crash Partner",179,7.6,7.6,2359,2351
+ADAS,airbag,"No Subject Vehicle, No Crash Partner",32,1.4,1.4,2359,2351
+ADAS,airbag,"Yes Crash Partner, No Subject Vehicle",19,0.8,0.8,2359,2351
+ADAS,airbag,"No Subject Vehicle, Unknown Crash Partner",18,0.8,0.8,2359,2351
+ADAS,airbag,"No Crash Partner, Unknown Subject Vehicle",2,0.1,0.1,2359,2351
+ADAS,airbag,"Yes Crash Partner, Unknown Subject Vehicle",2,0.1,0.1,2359,2351
+ADAS,airbag,Not Applicable,1,0.0,0.0,2359,2351
+ADAS,airbag,Unknown,8,0.3,,2359,2351
+ADAS,towed,"Yes Subject Vehicle, No Crash Partner",70,3.0,38.0,2359,184
+ADAS,towed,"Yes Subject Vehicle, Unknown Crash Partner",52,2.2,28.3,2359,184
+ADAS,towed,"Yes Subject Vehicle, Yes Crash Partner",28,1.2,15.2,2359,184
+ADAS,towed,"No Subject Vehicle, No Crash Partner",22,0.9,12.0,2359,184
+ADAS,towed,"Yes Crash Partner, No Subject Vehicle",5,0.2,2.7,2359,184
+ADAS,towed,"No Subject Vehicle, Unknown Crash Partner",4,0.2,2.2,2359,184
+ADAS,towed,"Yes Crash Partner, Unknown Subject Vehicle",3,0.1,1.6,2359,184
+ADAS,towed,Unknown,2175,92.2,,2359,184
+ADAS,Report Type,5-Day,2230,94.5,94.5,2359,2359
+ADAS,Report Type,Update,127,5.4,5.4,2359,2359
+ADAS,Report Type,Monthly,2,0.1,0.1,2359,2359
+ADAS,state_std,CA,656,27.8,28.1,2359,2332
+ADAS,state_std,TX,297,12.6,12.7,2359,2332
+ADAS,state_std,FL,200,8.5,8.6,2359,2332
+ADAS,state_std,GA,85,3.6,3.6,2359,2332
+ADAS,state_std,NJ,70,3.0,3.0,2359,2332
+ADAS,state_std,NY,70,3.0,3.0,2359,2332
+ADAS,state_std,NC,69,2.9,3.0,2359,2332
+ADAS,state_std,WA,62,2.6,2.7,2359,2332
+ADAS,state_std,VA,62,2.6,2.7,2359,2332
+ADAS,state_std,IL,59,2.5,2.5,2359,2332
+ADAS,state_std,MI,50,2.1,2.1,2359,2332
+ADAS,state_std,OH,49,2.1,2.1,2359,2332
+ADAS,state_std,PA,49,2.1,2.1,2359,2332
+ADAS,state_std,AZ,45,1.9,1.9,2359,2332
+ADAS,state_std,CO,36,1.5,1.5,2359,2332
+ADAS,state_std,MD,35,1.5,1.5,2359,2332
+ADAS,state_std,NV,34,1.4,1.5,2359,2332
+ADAS,state_std,IN,31,1.3,1.3,2359,2332
+ADAS,state_std,MO,28,1.2,1.2,2359,2332
+ADAS,state_std,OR,28,1.2,1.2,2359,2332
+ADAS,state_std,CT,26,1.1,1.1,2359,2332
+ADAS,state_std,MA,26,1.1,1.1,2359,2332
+ADAS,state_std,SC,26,1.1,1.1,2359,2332
+ADAS,state_std,UT,23,1.0,1.0,2359,2332
+ADAS,state_std,TN,23,1.0,1.0,2359,2332
+ADAS,state_std,OK,20,0.8,0.9,2359,2332
+ADAS,state_std,AL,19,0.8,0.8,2359,2332
+ADAS,state_std,MN,18,0.8,0.8,2359,2332
+ADAS,state_std,WI,17,0.7,0.7,2359,2332
+ADAS,state_std,KS,15,0.6,0.6,2359,2332
+ADAS,state_std,LA,13,0.6,0.6,2359,2332
+ADAS,state_std,AR,13,0.6,0.6,2359,2332
+ADAS,state_std,KY,12,0.5,0.5,2359,2332
+ADAS,state_std,NE,6,0.3,0.3,2359,2332
+ADAS,state_std,NH,6,0.3,0.3,2359,2332
+ADAS,state_std,MS,6,0.3,0.3,2359,2332
+ADAS,state_std,IA,6,0.3,0.3,2359,2332
+ADAS,state_std,DC,5,0.2,0.2,2359,2332
+ADAS,state_std,NM,5,0.2,0.2,2359,2332
+ADAS,state_std,DE,4,0.2,0.2,2359,2332
+ADAS,state_std,UNK,4,0.2,0.2,2359,2332
+ADAS,state_std,VT,4,0.2,0.2,2359,2332
+ADAS,state_std,WV,4,0.2,0.2,2359,2332
+ADAS,state_std,ME,3,0.1,0.1,2359,2332
+ADAS,state_std,WY,2,0.1,0.1,2359,2332
+ADAS,state_std,MT,2,0.1,0.1,2359,2332
+ADAS,state_std,PR,2,0.1,0.1,2359,2332
+ADAS,state_std,RI,2,0.1,0.1,2359,2332
+ADAS,state_std,HI,2,0.1,0.1,2359,2332
+ADAS,state_std,ID,2,0.1,0.1,2359,2332
+ADAS,state_std,SD,1,0.0,0.0,2359,2332
+ADAS,state_std,Not reported,27,1.1,,2359,2332
