@@ -48,7 +48,13 @@ def read_clean(path: Path) -> pd.DataFrame:
     df = pd.read_csv(path, dtype=str, keep_default_na=False, encoding="utf-8-sig")
     for c in BOOL_COLS:
         if c in df.columns:
-            df[c] = df[c].map({"True": True, "False": False}).astype(bool)
+            mapped = df[c].map({"True": True, "False": False})
+            bad = mapped.isna()
+            if bad.any():
+                # astype(bool) 会把 NaN 变成 True，从而悄悄抬高 rain_or_wet / engaged 等占比，这里直接报错
+                vals = sorted(set(df.loc[bad, c]))[:5]
+                raise ValueError(f"{path.name}: 布尔列 {c} 含非 True/False 取值 {vals!r}（{int(bad.sum())} 行）")
+            df[c] = mapped.astype(bool)
     for c in NUM_COLS:
         if c in df.columns:
             df[c] = pd.to_numeric(df[c], errors="coerce")  # 空字符串 → NaN

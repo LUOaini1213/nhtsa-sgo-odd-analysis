@@ -24,5 +24,5 @@ TABLE_DIR = OUTPUT_DIR / "tables"
 FIG_DIR = OUTPUT_DIR / "figures"
 CLEAN_DIR = OUTPUT_DIR / "clean"
 
-# 数据版本说明（NHTSA 页面显示的数据更新日期，由用户下载时记录）
+# 数据版本说明（下载时 NHTSA SGO 页面显示的数据更新日期）
 DATA_UPDATED = "2026-10-15"

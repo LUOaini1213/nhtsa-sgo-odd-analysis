@@ -38,7 +38,7 @@
 
 - 按 NHTSA 网页说明，这两份 CSV 收录的是 **2025-06-16 至 2026-09-15** 的报告，使用第三修订版字段；第三修订版于 2025-04-24 发布，2025-06-16 生效。2025-06-16 之前的数据在 NHTSA 的归档区，使用旧版字段，本项目未下载。
 - 数据字典（2026-10-15 版）的变更记录写明，本次发布包含 2026-09-15 前收到的报告。2025-11-17 起数据开始包含 City 和 State。
-- 文件按最新版本的 `Automation System Engaged?`（ADS / ADAS）划分；未报告自动化类型的报告放在 OTHER 文件中。按任务要求本项目没有下载 OTHER 文件；NHTSA 自己的仪表板同样不纳入 Unknown 类型的报告。
+- 文件按最新版本的 `Automation System Engaged?`（ADS / ADAS）划分；未报告自动化类型的报告放在 OTHER 文件中。本项目的范围只包括 ADS 和 ADAS 两份文件，没有纳入 OTHER 文件；NHTSA 自己的仪表板同样不纳入 Unknown 类型的报告。
 
 ### 2.2 第三修订版的上报门槛（据 NHTSA SGO 网页）
 - **ADS**：碰撞前 30 秒内任何时刻 ADS 处于使用状态，且事故造成以下任一后果，就必须上报：一定程度的财产损失、死亡、撞击弱势道路使用者、气囊展开、车辆被拖走、有人被送往医院治疗。
@@ -74,7 +74,7 @@
 
 **当前文件中没有的字段**：NHTSA 的归档数据字典（2021–2025）中有 `Lighting`（Daylight、Dawn/Dusk、Dark - Lighted、Dark - Not Lighted 等）、`Posted Speed Limit (MPH)` 和单选的 `Roadway Surface`。第三修订版字段中，**没有 `Lighting` 和 `Posted Speed Limit`**，路面状况改为多选的 `Roadway-*`。因此本项目：
 - **光照**：用事故时段作为代理指标（规则 R8），并明确标注这不等于光照条件。
-- **限速**：无法分析。如需分析，需另行获取归档数据（按任务要求未下载）。
+- **限速**：无法分析。如需分析，需另行获取 2025-06-16 之前的归档数据（使用旧版字段，不在本项目范围内）。
 
 ## 3. NHTSA 官方对数据的提示（重点）
 
@@ -385,7 +385,8 @@ n：ADS 为 1,549 / 1,551 / 1,505 / 267；ADAS 为 2,359 / 2,427 / 2,352 / 237�
 
 ## 9. 可复现性
 - 运行命令：在仓库根目录执行 `python -I -B -X utf8 scripts/run_all.py`
-- 环境：Python 3.13.14，pandas 3.0.5，matplotlib 3.11.0（Windows，中文字体微软雅黑）。
+- 环境：Python 3.13.14，pandas 3.0.5，numpy 2.5.0，matplotlib 3.11.0（Windows，中文字体微软雅黑）。numpy 2.5.0 需要 Python ≥ 3.12，因此最低版本是 Python 3.12；CI 在 Ubuntu 和 Windows 上用 Python 3.12 与 3.13 重跑。
+- 自动检查：`python -I -B -X utf8 scripts/check_tables.py` 逐字节比对重跑后的 `output/tables/` 与已提交版本；`tests/test_readme_numbers.py` 核对 README 和本报告中带 K 编号的数字与 `key_metrics.csv` 一致。
 - 原始数据（`data/raw/`，NHTSA 官方 CSV 原样副本）只读，路径可通过环境变量 `NHTSA_SGO_DIR` 修改。不访问网络，不执行数据中的任何内容。`-I` 隔离模式保证不会从数据目录导入代码。
 - 数据源更新后重跑：清洗、统计和作图会自动更新，图中的数字全部取自汇总表。但有两处人工判断需要重新核对：`02_analyze.py` 中的积水叙述人工复核表（出现新命中时会打印“未复核”警告），以及 `pipeline.py` 中的 `TIME_BASE_SUSPECT`（检验结果与设置不一致时会打印警告）。
 

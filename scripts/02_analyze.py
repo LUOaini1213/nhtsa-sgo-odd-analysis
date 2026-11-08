@@ -126,7 +126,7 @@ def main() -> None:
                 "partial_month": m in P.PARTIAL_MONTHS, "note": P.PARTIAL_MONTHS.get(m, ""),
             })
     monthly = pd.DataFrame(rows)
-    monthly.to_csv(TABLE_DIR / "monthly_incidents.csv", index=False, encoding="utf-8-sig")
+    monthly.to_csv(TABLE_DIR / "monthly_incidents.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 2. 字段分布
     fields = [
@@ -143,7 +143,7 @@ def main() -> None:
     for ds in DATASETS:
         for f, order in fields:
             rows += distribution(A[ds], f, ds, order)
-    pd.DataFrame(rows).to_csv(TABLE_DIR / "distributions.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(rows).to_csv(TABLE_DIR / "distributions.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 3. 时间基准检验
     rows = []
@@ -163,7 +163,7 @@ def main() -> None:
         if "ET" in tz_start and "PT" in tz_start:
             shifts[(ds, top)] = (tz_start["PT"] - tz_start["ET"]) % 24
     tbz = pd.DataFrame(rows)
-    tbz.to_csv(TABLE_DIR / "time_base_check_by_tz.csv", index=False, encoding="utf-8-sig")
+    tbz.to_csv(TABLE_DIR / "time_base_check_by_tz.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
     for (ds, ent), sh in shifts.items():
         flag = ent in TIME_BASE_SUSPECT.get(ds, [])
         print(f"[时间基准] {ds} {ent}: PT 低谷起点 - ET 低谷起点 = {sh} 小时（当地时间应≈0，UTC 应≈3）；列入存疑={flag}")
@@ -184,7 +184,7 @@ def main() -> None:
                          "n_exact_match": int((o < 0.05).sum()), "n_12h_offset (AM/PM 混淆)": int(((o - 12).abs() < 0.05).sum()),
                          "n_other_offset": int(((o >= 0.05) & ((o - 12).abs() >= 0.05)).sum())})
     tbn = pd.DataFrame(rows).sort_values(["dataset", "n_narratives_with_ampm_time"], ascending=[True, False])
-    tbn.to_csv(TABLE_DIR / "time_base_check_narratives.csv", index=False, encoding="utf-8-sig")
+    tbn.to_csv(TABLE_DIR / "time_base_check_narratives.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 4. 按小时分布
     rows = []
@@ -204,7 +204,7 @@ def main() -> None:
         for hr in range(24):
             rows.append({"profile": name, "hour": hr, "n": int(cnt[hr]), "n_known_hour": int(len(h)),
                          "pct": pct(cnt[hr], len(h))})
-    pd.DataFrame(rows).to_csv(TABLE_DIR / "hourly_profiles.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(rows).to_csv(TABLE_DIR / "hourly_profiles.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 5. 天气 / 路面 / 时间条件
     rows = []
@@ -237,7 +237,7 @@ def main() -> None:
             rows.append({"dataset": ds, "group": g, "condition": name, "n": int(n), "n_all": int(base),
                          "pct_of_all": pct(n, base), "n_known": int(den), "pct_of_known": pct(n, den), "note": nt})
     cond = pd.DataFrame(rows)
-    cond.to_csv(TABLE_DIR / "conditions.csv", index=False, encoding="utf-8-sig")
+    cond.to_csv(TABLE_DIR / "conditions.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 6. 车速
     rows = []
@@ -251,7 +251,7 @@ def main() -> None:
             "pct_ge46mph": pct((s >= 46).sum(), len(s)), "pct_gt65mph": pct((s > 65).sum(), len(s)),
         })
     speed = pd.DataFrame(rows)
-    speed.to_csv(TABLE_DIR / "speed_summary.csv", index=False, encoding="utf-8-sig")
+    speed.to_csv(TABLE_DIR / "speed_summary.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 7. 碰撞构型（SV × CP）
     rows = []
@@ -261,7 +261,7 @@ def main() -> None:
         ct.insert(0, "dataset", ds)
         ct["pct_of_all"] = (100 * ct["n"] / len(d)).round(1)
         rows.append(ct.sort_values("n", ascending=False))
-    pd.concat(rows).to_csv(TABLE_DIR / "crash_configuration.csv", index=False, encoding="utf-8-sig")
+    pd.concat(rows).to_csv(TABLE_DIR / "crash_configuration.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 8. 数据完整度
     rows = []
@@ -285,7 +285,7 @@ def main() -> None:
             n_miss = int(miss.sum())
             rows.append({"dataset": ds, "field": name, "n_not_known": n_miss, "n_redacted": n_red,
                          "n_unknown_or_not_reported": n_miss - n_red, "n_all": len(d), "pct_not_known": pct(n_miss, len(d))})
-    pd.DataFrame(rows).to_csv(TABLE_DIR / "data_completeness.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(rows).to_csv(TABLE_DIR / "data_completeness.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 9. 上报主体（仅背景）
     rows = []
@@ -298,7 +298,7 @@ def main() -> None:
                      "pct_of_incidents": pct(rest.sum(), len(A[ds]))})
     ents = pd.DataFrame(rows)
     ents["caveat"] = "报告数取决于车队规模、里程、遥测能力与上报口径，未按暴露量归一化，不能用于安全排名"
-    ents.to_csv(TABLE_DIR / "reporting_entities_context.csv", index=False, encoding="utf-8-sig")
+    ents.to_csv(TABLE_DIR / "reporting_entities_context.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 10. 叙述：积水 / 打滑
     rows = []
@@ -324,7 +324,7 @@ def main() -> None:
                 "excerpt": excerpt,
             })
     water = pd.DataFrame(rows)
-    water.to_csv(TABLE_DIR / "narrative_water_mentions.csv", index=False, encoding="utf-8-sig")
+    water.to_csv(TABLE_DIR / "narrative_water_mentions.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
     if len(water) and (water["manual_category"] == "未复核").any():
         print("[警告] 有新的关键词命中尚未人工复核：", water.loc[water["manual_category"] == "未复核", "Report ID"].tolist())
 
@@ -342,7 +342,7 @@ def main() -> None:
             for k, v in metric_set(d).items():
                 rows.append({"dataset": ds, "scenario": sid, "scenario_desc": desc, "n": len(d), "metric": k, "value": v})
     sens = pd.DataFrame(rows)
-    sens.to_csv(TABLE_DIR / "sensitivity_checks.csv", index=False, encoding="utf-8-sig")
+    sens.to_csv(TABLE_DIR / "sensitivity_checks.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     # ------------------------------------------------------------ 12. 关键指标
     K = []
@@ -472,7 +472,7 @@ def main() -> None:
         str(int(v)) if isinstance(v, (int, float, np.integer, np.floating)) and float(v).is_integer() else str(v))
     for col in ["numerator", "denominator"]:
         keym[col] = keym[col].map(fmt)
-    keym.to_csv(TABLE_DIR / "key_metrics.csv", index=False, encoding="utf-8-sig")
+    keym.to_csv(TABLE_DIR / "key_metrics.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
 
     with pd.option_context("display.width", 250, "display.max_rows", 500, "display.max_colwidth", 80):
         print(keym[["metric_id", "dataset", "metric", "value", "numerator", "denominator", "unit"]].to_string(index=False))
