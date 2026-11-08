@@ -1,0 +1,9 @@
+[project]
+name = "nhtsa-sgo-odd-analysis"
+version = "0.1.0"
+description = "Descriptive analysis of NHTSA SGO crash reports (ADS vs L2 ADAS): ODD conditions, data caveats, reproducible pipeline"
+# numpy 2.5.0 (requirements.txt) has no build for Python 3.11
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

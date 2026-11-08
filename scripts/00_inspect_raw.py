@@ -166,7 +166,7 @@ def main() -> None:
 
     prof = pd.concat(out, ignore_index=True)
     TABLE_DIR.mkdir(parents=True, exist_ok=True)
-    prof.to_csv(TABLE_DIR / "raw_schema_profile.csv", index=False, encoding="utf-8-sig")
+    prof.to_csv(TABLE_DIR / "raw_schema_profile.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
     print("\nwritten: output/tables/raw_schema_profile.csv")
 
 

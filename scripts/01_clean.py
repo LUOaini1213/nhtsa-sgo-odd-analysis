@@ -116,9 +116,9 @@ def main() -> None:
                len(d), "最新版本报告", "R4 剔除（多为旧版 SGO 首报后的更新或迟报）")
 
         cols = [c for c in d.columns if c not in DROP_FROM_CLEAN]
-        d[cols].to_csv(CLEAN_DIR / f"{ds.lower()}_reports_latest.csv", index=False, encoding="utf-8-sig")
+        d[cols].to_csv(CLEAN_DIR / f"{ds.lower()}_reports_latest.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
         analysis[[c for c in analysis.columns if c not in DROP_FROM_CLEAN]].to_csv(
-            CLEAN_DIR / f"{ds.lower()}_incidents.csv", index=False, encoding="utf-8-sig")
+            CLEAN_DIR / f"{ds.lower()}_incidents.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
         print(f"[{ds}] raw={n_raw} latest={len(d)} incidents={len(inc)} analysis={len(analysis)}")
 
     # ---- 跨文件：同一 Same Incident ID 同时出现在 ADS 与 ADAS 文件
@@ -133,10 +133,10 @@ def main() -> None:
            "两文件最新版本报告", "地点与时间均不同，判断为 ID 重合而非同一事故；两文件分别分析、不跨文件合并。"
            + (" 明细: " + " | ".join(detail) if detail else ""))
 
-    pd.DataFrame(log).to_csv(TABLE_DIR / "cleaning_log.csv", index=False, encoding="utf-8-sig")
-    pd.DataFrame(dq).to_csv(TABLE_DIR / "data_quality_checks.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(log).to_csv(TABLE_DIR / "cleaning_log.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
+    pd.DataFrame(dq).to_csv(TABLE_DIR / "data_quality_checks.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
     if multis:
-        pd.concat(multis).to_csv(TABLE_DIR / "multi_report_incidents.csv", index=False, encoding="utf-8-sig")
+        pd.concat(multis).to_csv(TABLE_DIR / "multi_report_incidents.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
     print(pd.DataFrame(log)[["dataset", "step", "rows_before", "rows_after", "note"]].to_string(index=False))
 
 
